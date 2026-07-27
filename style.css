@@ -1,13 +1,36 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f8f8f8;
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
 }
 
-h1 {
-    color: darkred;
+nav{
+    background:#8B0000;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
 }
 
-p {
-    font-size: 18px;
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+h1{
+    text-align:center;
+    margin-top:60px;
+    color:#8B0000;
+}
+
+p{
+    text-align:center;
+    font-size:20px;
 }
