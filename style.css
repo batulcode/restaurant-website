@@ -36,7 +36,7 @@ p{
 }
 .hero{
     min-height: 500px;
-    background: url("images/Screenshot_20260810_082305_ChatGPT.jpg");
+    background: url("images/burger.png");
     display: flex;
     justify-content: center;
     align-items: center;
