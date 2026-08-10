@@ -36,7 +36,7 @@ p{
 }
 .hero{
     min-height: 500px;
-    background: url("images/burger.jpg"); center center/cover no-repeat;
+    background: url("images/burger.jpg") center center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
