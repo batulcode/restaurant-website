@@ -146,3 +146,17 @@ p{
 .about p {
     font-size: 18px;
     }
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 8px 0;
+}
