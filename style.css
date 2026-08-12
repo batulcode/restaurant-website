@@ -293,3 +293,25 @@ footer p {
 .order .btn {
     display: inline-block;
 }
+.order {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center !important;
+    background: #f5f5f5;
+}
+
+.order h2 {
+    text-align: center !important;
+    margin: 0 auto 15px;
+}
+
+.order p {
+    text-align: center !important;
+    margin: 0 auto 20px;
+}
+
+.order .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+}
