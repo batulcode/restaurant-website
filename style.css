@@ -202,3 +202,20 @@ html {
     opacity: 0.8;
     transform: scale(1.05);
     }
+nav {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+        }
