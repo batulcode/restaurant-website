@@ -244,3 +244,18 @@ body {
     background: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
     }
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+                               }
+.menu h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
