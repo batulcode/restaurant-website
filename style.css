@@ -268,3 +268,12 @@ body {
     object-fit: contain;
     border-radius: 8px;
 }
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    }
