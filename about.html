@@ -7,15 +7,16 @@
 
     <style>
         .about-page {
-            min-height: 70vh;
             padding: 70px 20px;
             text-align: center;
             animation: fadeIn 1s ease;
         }
 
         .about-page h1 {
-            font-size: 35px;
-            margin-bottom: 25px;
+            color: #8B0000;
+            font-size: 40px;
+            margin-bottom: 30px;
+            animation: slideDown 1s ease;
         }
 
         .about-box {
@@ -33,34 +34,8 @@
             line-height: 1.8;
         }
 
-        .btn {
-            display: inline-block;
-            margin-top: 20px;
-            transition: transform 0.3s ease;
-        }
-
-        .btn:hover {
-            transform: scale(1.08);
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .about-box .btn {
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -84,16 +59,16 @@
 
     <div class="about-box">
         <p>
-            At FoodHub, we serve fresh, delicious and quality food
-            made with love.
+            Welcome to FoodHub! We serve fresh, delicious and
+            high-quality food made with love.
         </p>
 
         <p>
-            Our goal is to provide tasty food and a great dining
-            experience for everyone.
+            Our goal is to provide tasty food, friendly service
+            and a great experience for every customer.
         </p>
 
-        <a href="menu.html" class="btn">View Our Menu</a>
+        <a href="menu.html" class="btn">Explore Our Menu</a>
     </div>
 
 </section>
@@ -103,4 +78,4 @@
 </footer>
 
 </body>
-  </html>
+</html>
