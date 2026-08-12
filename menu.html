@@ -4,6 +4,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodHub - Menu</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .menu-page {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .menu-page h1 {
+            color: #8B0000;
+            font-size: 40px;
+            animation: slideDown 1s ease;
+        }
+
+        .menu-page .cards {
+            margin-top: 40px;
+        }
+
+        .menu-page .card {
+            animation: slideUp 0.8s ease;
+        }
+
+        .menu-page .card:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .menu-page .card:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,8 +48,9 @@
     </ul>
 </nav>
 
-<section class="menu">
-    <h2>Our Menu 🍔</h2>
+<section class="menu-page">
+
+    <h1>Our Delicious Menu 🍔🍕</h1>
 
     <div class="cards">
 
@@ -28,21 +58,25 @@
             <img src="images/burger.png" alt="Cheese Burger">
             <h3>Cheese Burger</h3>
             <p>₹199</p>
+            <a href="contact.html" class="btn">Order Now</a>
         </div>
 
         <div class="card">
             <img src="images/pizza.png" alt="Pizza">
             <h3>Pizza</h3>
             <p>₹299</p>
+            <a href="contact.html" class="btn">Order Now</a>
         </div>
 
         <div class="card">
             <img src="images/special-burger.png" alt="Special Burger">
             <h3>Special Burger</h3>
             <p>₹249</p>
+            <a href="contact.html" class="btn">Order Now</a>
         </div>
 
     </div>
+
 </section>
 
 <footer>
