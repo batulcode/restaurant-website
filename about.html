@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub - About Us</title>
+    <link rel="stylesheet" href="style.css">
 
+    <style>
+        .about-page {
+            min-height: 70vh;
+            padding: 70px 20px;
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+
+        .about-page h1 {
+            font-size: 35px;
+            margin-bottom: 25px;
+        }
+
+        .about-box {
+            max-width: 700px;
+            margin: auto;
+            padding: 35px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            animation: slideUp 1s ease;
+        }
+
+        .about-box p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>FoodHub</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="about-page">
+
+    <h1>About FoodHub 🍔</h1>
+
+    <div class="about-box">
+        <p>
+            At FoodHub, we serve fresh, delicious and quality food
+            made with love.
+        </p>
+
+        <p>
+            Our goal is to provide tasty food and a great dining
+            experience for everyone.
+        </p>
+
+        <a href="menu.html" class="btn">View Our Menu</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 FoodHub. All Rights Reserved.</p>
+</footer>
+
+</body>
+  </html>
