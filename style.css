@@ -277,3 +277,11 @@ body {
     font-size: 30px;
     margin-bottom: 15px;
     }
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
