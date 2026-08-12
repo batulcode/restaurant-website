@@ -198,3 +198,7 @@ html {
     margin-top: 15px;
     text-decoration: none;
 }
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    }
