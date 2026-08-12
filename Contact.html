@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHub - Contact</title>
+    <link rel="stylesheet" href="style.css">
 
+    <style>
+        .contact-page {
+            min-height: 70vh;
+            padding: 60px 20px;
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+
+        .contact-page h1 {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+
+        .contact-box {
+            max-width: 500px;
+            margin: auto;
+            padding: 35px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            animation: slideUp 1s ease;
+        }
+
+        .contact-box p {
+            font-size: 18px;
+            margin: 18px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover {
+            transform: scale(1.08);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>FoodHub</h2>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="contact-page">
+
+    <h1>Contact Us 📞</h1>
+
+    <div class="contact-box">
+        <p>📞 +91 7869988793</p>
+        <p>📧 foodhub@gmail.com</p>
+        <p>📍 Your City, India</p>
+
+        <a href="https://wa.me/917869988793" class="btn">
+            Chat on WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 FoodHub. All Rights Reserved.</p>
+</footer>
+
+</body>
+  </html>
