@@ -232,3 +232,8 @@ nav a {
 .order p {
     margin-bottom: 20px;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
