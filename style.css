@@ -470,3 +470,14 @@ nav ul li a:hover {
 .btn:active {
     transform: scale(0.95);
 }
+.menu-page .card {
+    overflow: hidden;
+}
+
+.menu-page .card img {
+    transition: transform 0.5s ease;
+}
+
+.menu-page .card:hover img {
+    transform: scale(1.1);
+}
