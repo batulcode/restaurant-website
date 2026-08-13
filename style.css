@@ -586,3 +586,9 @@ footer:hover p {
     background: #ff6600;
     transform: scale(1.05);
 }
+.top-btn {
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
