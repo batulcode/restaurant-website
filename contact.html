@@ -8,19 +8,21 @@
     <style>
         .contact-page {
             min-height: 70vh;
-            padding: 60px 20px;
+            padding: 70px 20px;
             text-align: center;
             animation: fadeIn 1s ease;
         }
 
         .contact-page h1 {
-            font-size: 35px;
+            color: #8B0000;
+            font-size: 40px;
             margin-bottom: 30px;
+            animation: slideDown 1s ease;
         }
 
         .contact-box {
             max-width: 500px;
-            margin: auto;
+            margin: 0 auto;
             padding: 35px;
             background: white;
             border-radius: 15px;
@@ -33,34 +35,8 @@
             margin: 18px 0;
         }
 
-        .btn {
-            display: inline-block;
+        .contact-box .btn {
             margin-top: 15px;
-            transition: transform 0.3s ease;
-        }
-
-        .btn:hover {
-            transform: scale(1.08);
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
     </style>
 </head>
@@ -99,4 +75,4 @@
 </footer>
 
 </body>
-  </html>
+</html>
