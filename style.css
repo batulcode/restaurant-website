@@ -315,3 +315,18 @@ footer p {
     width: fit-content;
     margin: 20px auto 0;
 }
+/* FOOD CARD ANIMATION */
+
+.card:nth-child(1) {
+    animation: slideUp 0.8s ease;
+}
+
+.card:nth-child(2) {
+    animation: slideUp 0.8s ease 0.2s;
+    animation-fill-mode: backwards;
+}
+
+.card:nth-child(3) {
+    animation: slideUp 0.8s ease 0.4s;
+    animation-fill-mode: backwards;
+}
