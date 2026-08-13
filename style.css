@@ -351,3 +351,11 @@ footer p {
         transform: scale(1);
     }
 }
+nav ul li a {
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: translateY(-2px);
+    color: #ffcc00;
+    }
