@@ -551,3 +551,20 @@ body {
         opacity: 1;
     }
 }
+/* FOOTER ANIMATION */
+
+footer {
+    transition: 0.4s ease;
+}
+
+footer:hover {
+    background: #8B0000;
+}
+
+footer p {
+    transition: 0.3s ease;
+}
+
+footer:hover p {
+    transform: scale(1.03);
+}
