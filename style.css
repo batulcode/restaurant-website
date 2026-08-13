@@ -481,3 +481,43 @@ nav ul li a:hover {
 .menu-page .card:hover img {
     transform: scale(1.1);
 }
+/* PAGE HEADING ANIMATION */
+
+.menu-page h1,
+.about-page h1,
+.contact-page h1 {
+    animation: headingPop 1s ease;
+}
+
+@keyframes headingPop {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* IMAGE TILT EFFECT */
+
+.menu-page .card {
+    transition: transform 0.4s ease;
+}
+
+.menu-page .card:hover {
+    transform: translateY(-10px) rotate(1deg);
+}
+
+.menu-page .card img {
+    transition: transform 0.5s ease;
+}
+
+.menu-page .card:hover img {
+    transform: scale(1.08);
+}
