@@ -601,3 +601,24 @@ footer:hover p {
 .card:hover {
     transform: translateY(-10px) scale(1.02);
 }
+/* NAVIGATION LINK EFFECT */
+
+nav ul li a {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: #ffcc00;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
