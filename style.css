@@ -521,3 +521,33 @@ nav ul li a:hover {
 .menu-page .card:hover img {
     transform: scale(1.08);
 }
+/* GLOWING PAGE HEADINGS */
+
+.menu-page h1,
+.about-page h1,
+.contact-page h1 {
+    text-shadow: 0 0 10px rgba(139, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.menu-page h1:hover,
+.about-page h1:hover,
+.contact-page h1:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(139, 0, 0, 0.45);
+}
+/* PAGE LOAD ANIMATION */
+
+body {
+    animation: pageLoad 0.8s ease;
+}
+
+@keyframes pageLoad {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
