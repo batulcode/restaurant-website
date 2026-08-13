@@ -568,3 +568,21 @@ footer p {
 footer:hover p {
     transform: scale(1.03);
 }
+/* BACK TO TOP BUTTON */
+
+.top-btn {
+    display: block;
+    width: fit-content;
+    margin: 25px auto;
+    padding: 10px 20px;
+    background: #8B0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.top-btn:hover {
+    transform: translateY(-4px);
+    background: #ff6600;
+}
